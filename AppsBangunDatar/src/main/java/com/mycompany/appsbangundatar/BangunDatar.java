@@ -1,3 +1,5 @@
+package com.mycompany.appsbangundatar;
+
 abstract class BangunDatar {
     private String namaBangunDatar;
     abstract double luas();
@@ -15,4 +17,6 @@ abstract class BangunDatar {
         this.namaBangunDatar = namaBangunDatar;
     }
     //Asli Bro
+
+
 }
