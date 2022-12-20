@@ -1,12 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+abstract class BangunDatar {
+    private String namaBangunDatar;
+    abstract double luas();
+    abstract double keliling();
 
-/**
- *
- * @author DELL LATITUDE 7480
- */
-public class BangunDatar {
-    
+    public BangunDatar(String namaBangunDatar) {
+        this.namaBangunDatar = namaBangunDatar;
+    }
+
+    public String getNamaBangunDatar() {
+        return namaBangunDatar;
+    }
+
+    public void setNamaBangunDatar(String namaBangunDatar) {
+        this.namaBangunDatar = namaBangunDatar;
+    }
+    //Asli Bro
 }
